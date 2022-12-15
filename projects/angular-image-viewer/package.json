@@ -8,13 +8,13 @@
   "author": "Heinrich Reimer <heinrich.reimer@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^11.0.0 || ^12.0.0 || ^13.0.0",
-    "@angular/core": "^11.0.0 || ^12.0.0 || ^13.0.0"
+    "@angular/common": "^15.0.4",
+    "@angular/core": "^15.0.4"
   },
   "optionalDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
-    "@angular/cdk": "^11.0.0 || ^12.0.0 || ^13.0.0",
-    "@angular/material": "^11.0.0 || ^12.0.0 || ^13.0.0"
+    "@angular/cdk": "^15.0.3",
+    "@angular/material": "^15.0.3"
   },
   "keywords": [
     "ngx-image-viewer",
