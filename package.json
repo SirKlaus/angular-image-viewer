@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "prepare": "npm run build:lib",
     "build:lib": "ng build angular-image-viewer --configuration production && npx cpy-cli README.md dist/angular-image-viewer",
     "postbuild": "tar -C dist --overwrite -czf dist/angular-image-viewer.tgz angular-image-viewer",
     "test": "ng test",
